@@ -22,4 +22,4 @@
 19. Next we will follow some of the instuction from this link[https://devcenter.heroku.com/articles/container-registry-and-runtime#pushing-an-existing-image] to push the image to heroku
 20. Run `docker tag <image_id> registry.heroku.com/<app>/<process-type>`, where <image_id> is the id of your newly created image, <app> would be called redfoo and <process-type> would be web, example,  `docker tag cc792ced279b registry.heroku.com/redfoo/web`
 21. Run `docker push registry.heroku.com/<app>/<process-type>`, example ,`docker push registry.heroku.com/redfoo/web`
-22. 
+22. Then run `heroku container:release web`
