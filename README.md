@@ -13,7 +13,7 @@ It has been compiled using the various steps from the following documentation/li
 3. [Root Password Inside a Docker Container](https://stackoverflow.com/questions/28721699/root-password-inside-a-docker-container)
 4. [Docker Commit Refference](https://docs.docker.com/engine/reference/commandline/commit/)
 
-To start with we are going to need to obtain the official pgAdmin container image from docker hub, the official image for pgAdmin can be found [here](#https://hub.docker.com/r/dpage/pgadmin4). We do that by running :
+To start with we are going to need to obtain the official pgAdmin container image from docker hub, the official image for pgAdmin can be found [here](https://hub.docker.com/r/dpage/pgadmin4). We do that by running :
 ```
 docker pull dpage/pgadmin4
 ```
