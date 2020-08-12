@@ -1,7 +1,7 @@
 # pgadmin-on-heroku-guide
 1. `docker pull dpage/pgadmin4`
 2. `docker run -p 80:80 -e 'PGADMIN_DEFAULT_EMAIL=user@domain.com' -e 'PGADMIN_DEFAULT_PASSWORD=SuperSecret' -d dpage/pgadmin4`
-3. `docker exec -u 0 -it <container_name> /bin/sh`, from
+3. `docker exec -u 0 -it <container_name> /bin/sh`, from [stackoverflow](https://stackoverflow.com/questions/28721699/root-password-inside-a-docker-container)
 4. Set password for root user and pgadmin user
 5. type `passwd` to change user password for the pgadmin user
 6. Then switch to the root user by typing `su root`
