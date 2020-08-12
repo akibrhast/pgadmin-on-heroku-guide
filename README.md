@@ -29,9 +29,9 @@ After running the above command navigate to `localhost:80` on your browser and l
 >*password*: SuperSecret
 
 Upon navigating to `localhost:80`, and if everything has been correctly set up you will see this:
-![pgAdmin Login Page](https://github.com/akibrhast/pgadmin-on-heroku-guide/blob/master/pgAdmin_login_page.png?raw=true)
+![pgAdmin Login Page](images/pgAdmin_login_page.png?raw=true)
 and upon successfull login you will see this:
-![pgAdmin Landing Page](https://github.com/akibrhast/pgadmin-on-heroku-guide/blob/master/pgAdmin_initial_landing_page.png?raw=true)
+![pgAdmin Landing Page](images/pgAdmin_initial_landing_page.png?raw=true)
 
 The next thing we need to do is access the running container as root to modify some files in it. We can do that by running the following command:
 ```
@@ -79,7 +79,7 @@ You will see a new image with REPOSITORY as `<none>` and TAG as `<none></none>`
 The next few steps involve setting things up for heroku.
 Create an empty app on heroku and name it anything, for example *redfoo*
 - Navigate to settings on the newly created app and add the following configvars
-![Heroku Configs](https://raw.githubusercontent.com/akibrhast/pgadmin-on-heroku-guide/master/Heroku_Config_Vars.png)
+![Heroku Configs](images/Heroku_Config_Vars.png)
 
 where:
 >PGADMIN_DEFAULT_EMAIL : your_email
