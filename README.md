@@ -5,6 +5,8 @@ The following are a list of instruction on how to run a pgadmin instance on hero
 2. Git
 3. Docker
 
+A github pages version of this `README.md` can be found [here](https://akibrhast.github.io/pgadmin-on-heroku-guide/)
+
 It has been compiled using the various steps from the following documentation/links:
 1. [Official pgAdmin Container Deployment](https://www.pgadmin.org/docs/pgadmin4/latest/container_deployment.html) 
 2. [Official Container Registry & Runtime (Docker Deploys)](https://devcenter.heroku.com/articles/container-registry-and-runtime#pushing-an-existing-image)
